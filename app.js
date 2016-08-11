@@ -83,8 +83,10 @@
 // function secondlargest (items){
 //     let biggest = 0;
 //     for (let i = 0; i < items.length; i++) {         // if first item in the array is bigger than 
-//          if (items[0] > items[1]){                  // the next then move on. If not then start with the next number
-// //how to refer to specific items in an array 
+//       if(items[i] > biggest){
+
+//                                                        // the next then move on. If not then start with the next number
+
 //          }                    
 //     }
 // }
@@ -98,21 +100,21 @@
 
 
 
-console.log('contains vowel');
+// console.log('contains vowel');
 
-function containsvowel (items) {
+// function containsvowel (items) {
 
-for(let i = 0; i < items.length; i++) {
-    if (items[i].match(/[a, e, i, o, u]/i)) {    // this means if all items in an 
-        return true;                             // array has an a, e, i, o, u, then display true 
-}else{
-    return false;
-} 
-}
-}
+// for(let i = 0; i < items.length; i++) {
+//     if (items[i].match(/[a, e, i, o, u]/i)) {    // this means if all items in an 
+//         return true;                             // array has an a, e, i, o, u, then display true 
+// }else{
+//     return false;
+// } 
+// }
+// }
 
 
-let word = ['Landon'];
+// let word = ['Landon'];
 
-let answer = containsvowel(word);
-console.log(answer);
+// let answer = containsvowel(word);
+// console.log(answer);
