@@ -132,13 +132,16 @@ function find (sentence) {
 
 let sentencesplit = sentence.split(" ");
 let longestword = 0; 
+let word = "";
 
 for (let i = 0; i < sentencesplit.length; i++) {
+    // if this is the longest weve seen so far, save it
     if (sentencesplit[i].length > longestword) {
-        longestword = sentencesplit[i].length;
+        longestword = sentencesplit[i].length; 
+        word = sentencesplit[i]; 
     }
 }
-return longestword;
+return word;
 }
  
 let answer = find('What is the longest word?');
