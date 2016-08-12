@@ -118,3 +118,28 @@
 
 // let answer = containsvowel(word);
 // console.log(answer);
+
+
+
+
+
+
+
+
+console.log('longest word');
+
+function find (sentence) {
+
+let sentencesplit = sentence.split(" ");
+let longestword = 0; 
+
+for (let i = 0; i < sentencesplit.length; i++) {
+    if (sentencesplit[i].length > longestword) {
+        longestword = sentencesplit[i].length;
+    }
+}
+return longestword;
+}
+ 
+let answer = find('What is the longest word?');
+console.log(answer);
