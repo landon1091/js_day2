@@ -162,9 +162,6 @@
 //     if(items[0] / 100)
 
 
-
-
-
 // let twonumbers = [10, 20];
 
 
@@ -279,44 +276,51 @@
 
 
 
-console.log('weave'); 
-
-
-
-function replacer (item) {
-let wordtouse = word.split(" ");
-let position = 4; 
-    for (let i = 0; i < wordtouse.length; i++) {
-        item[i] = item[i] + position;
-    }
-  return wordtouse;  
-}
 
 
 
 
 
-let answer = replacer('spaghetti');
-console.log(answer);
-
-
-// console.log('longest word');
-
-// function find (sentence) {
-
-// let sentencesplit = sentence.split(" ");   //turning it into a number and then that number into a word.
-// let longestword = 0; 
-// let word = "";
-
-// for (let i = 0; i < sentencesplit.length; i++) {
-//     // if this is the longest weve seen so far, save it
-//     if (sentencesplit[i].length > longestword) {
-//         longestword = sentencesplit[i].length; 
-//         word = sentencesplit[i]; 
+// console.log('weave'); 
+// function weave(x, y) {
+//     x = x.split("");
+    
+//     for (let i = y - 1; i < x.length; i = i + y) {
+//         x[i] = "x"; 
 //     }
+//     return x;
 // }
-// return word;
+// console.log(weave("spaghetti jhgjgjh jgygyug", 5));
+
+
+
+
+
+
+// console.log('Find')    // two parameters, first one is an array. second one is just a number
+//                        // Make a fucntion that finds the number in the array and displays its index.
+// let array = [];
+// let numb3r = 2;
+
+// function find(array, numb3r) {
+
 // }
- 
-// let answer = find('What is the longest word?');
-// console.log(answer);
+
+
+
+
+
+
+
+
+// console.log('Bonus');
+
+// let total = 10.00;
+// function bonus (amount){
+// let x = (amount * .2); 
+// amount = amount + x;
+
+// return (amount);
+// }
+// let answer = bonus(total);
+// console.log(answer)
