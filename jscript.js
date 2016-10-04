@@ -1,4 +1,6 @@
-// console.log('sum');
+let _ = require('lodash');
+
+//  console.log('sum 1');
 
 // function add (items) {
 // let sum = 0;
@@ -27,7 +29,7 @@
 
 
 
-// console.log('avg');    
+// console.log('avg 2');    
 
 
 // function avg (items) {
@@ -54,7 +56,7 @@
 
 
 
-// console.log('greaterThan');
+// console.log('greaterThan 3');
 
 // function greaterthan (first, second) {
 //     if (first < second) {
@@ -77,7 +79,7 @@
 
 
 
-// console.log('second largest');
+// console.log('second largest 4');
 
 
 // function secondlargest (items){
@@ -100,7 +102,7 @@
 
 
 
-// console.log('contains vowel');
+// console.log('contains vowel 5');
 
 // function containsvowel (items) {
 
@@ -126,7 +128,7 @@
 
 
 
-// console.log('longest word');
+// console.log('longest word 7');
 
 // function find (sentence) {
 
@@ -154,23 +156,21 @@
 
 
 
-// console.log('multiples')
+// console.log('multiples-14')
 
-// function multiples (items);
-// let x = 0;
-//     for(let i = 0; i < items.length; i++)
-//     if(items[0] / 100)
+// let x = _.range(0,101)
 
-
-// let twonumbers = [10, 20];
-
+// function multiples(test){
+// console.log(test.length) 
+// }
+// console.log(multiples(x));
 
 
 
 
 
 
-// console.log('divisors')
+// console.log('divisors 16')
 
 // let numb3r = 60;
 
@@ -281,7 +281,7 @@
 
 
 
-// console.log('weave'); 
+// console.log('weave 11'); 
 // function weave(x, y) {
 //     x = x.split("");
     
@@ -297,7 +297,7 @@
 
 
 
-// console.log('Find')    // two parameters, first one is an array. second one is just a number
+// console.log('Find 20')    // two parameters, first one is an array. second one is just a number
 //                        // Make a fucntion that finds the number in the array and displays its index.
 // let array = [];
 // let numb3r = 2;
@@ -313,7 +313,7 @@
 
 
 
-// console.log('Bonus');
+// console.log('Bonus 12');
 
 // let total = 10.88;
 // function bonus (amount){
